@@ -5,11 +5,11 @@ import logo from './logo.png';
 function Nav(){
     return(
         <nav class="navi">
-            <div class="container-fluid">
+            <div class="container-fluid nav_style">
               <a class="navbar-brand" href="/">
                 <img src={logo} alt="Logo" class="logo"/>
                 Melodify </a>
-              <ul class="nav ">
+              <ul class="nav menu_items">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="/">Home</a>
                 </li>

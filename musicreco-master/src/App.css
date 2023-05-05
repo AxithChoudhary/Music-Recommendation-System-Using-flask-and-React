@@ -3,20 +3,23 @@
 }
 body{
   font-family: 'poppins';
+  background-color: #FFF7E9;
+
 }
 .navi{
-    background-color: #0000ff;
     margin-top: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 5px 5px 5px 5px rgba(126, 125, 125, 0.75);
 }
 
 .navbar-brand{
   margin-left: 100px;
   font-weight: bold;
-  color: #ffffff;
+  color: #FF731D;
+  font-size: 20px;
 }
 
 .logo{
@@ -33,11 +36,15 @@ body{
 
 
 .nav-link{
-  color: #ffffff;
+  color: #FF731D;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .nav-link.active, .nav-link:hover{
-  color: #ffa500;
+  background-color: #FF731D;
+  color: white;
+  border-radius: 400px;
 }
 
 .hero{
@@ -59,9 +66,12 @@ body{
 .search-bar__label {
   display: flex;
   align-items: center;
-  border: 1px solid #1db954;
+  border: 1px solid #277BC0;
   border-radius: 500px;
   overflow: hidden;
+  width: 100%;
+  padding: 4px;
+  background-color: #f7e6c7;
 }
 
 .search-bar__input {
@@ -69,28 +79,32 @@ body{
   padding: 10px 20px;
   font-size: 16px;
   width: 100%;
-  background-color: transparent;
+  background-color: #f7e6c7;
   /* color: #fff; */
   outline: none;
 }
 
 .search-bar__input::placeholder {
-  color: #b3b3b3;
+  color: #FF731D;
 }
 
 .search-bar__button {
-  background-color: #1db954;
+  background-color: #277BC0;
   color: #fff;
   border: none;
   border-radius: 500px;
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 10px 45px;
+  font-size: 18px;
   margin-left: 10px;
   cursor: pointer;
+  font-weight: 700;
 }
 
 .search-bar__button:hover {
-  background-color: #1ed760;
+  background-color: white;
+  color: #277BC0;
+  border: 2px solid #277BC0;
+  padding-top: 8px;
 }
 
 .search-bar__results {
@@ -115,9 +129,9 @@ p{
 }
 
 .herotxt{
-  margin-top: 120px;
-  margin-bottom: 20px;
-  margin-left: 100px;
+  padding-top: 120px;
+  padding-bottom: 20px;
+  padding-left: 100px;
 }
 
 .headtxt, .high{
@@ -126,7 +140,7 @@ p{
 }
 
 .high{
-  color: #FFA500;
+  color: #FF731D;
 }
 
 .subhead, .subhigh{
@@ -153,11 +167,11 @@ p{
   display: block;
   position: fixed;
   width: 100%;
-  background-color: #000;
+  background-color: #FF731D;
   color: #ffffff;
   text-align: center;
   bottom: 0px;
-  padding: 0;
+  padding: 5px;
   margin: 0;
 }
 
@@ -169,7 +183,7 @@ p{
  font-size:18px;
  height: 40px;
  width: 150px;
- background-color: #FFA500;
+ background-color: #FF731D;
  border-width: 0;
 }
 
@@ -188,7 +202,61 @@ p{
  }
 
 .btn2:hover{
-  background-color: #ffa500;
+  background-color: #FF731D;
+}
+
+/* Navbar */
+.nav_style{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.menu_items{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  gap: 20px;
+}
+
+/* main */
+.form_styling{
+  display: flex;
+  width: 100%;
+  padding-left: 30px;
 }
 
 
+/* Landing */
+.landing{
+  height: 100%;
+  background-color: #FFE5B4;
+}
+
+.heading_styling{
+  padding-left: 35px;
+  margin-bottom: 30px;
+}
+.sub_heading{
+  color: #277BC0;
+  font-style: italic;
+  font-weight: 500;
+}
+.heading{
+  color: #FF731D;
+  font-weight: bold;
+  font-size: 55px;
+}
+.para{
+  color: #f87b2d;
+}
+
+.hero_section{
+  display: flex;
+  gap: 60px;
+}
+
+.music{
+  height: 400px;
+  width: 500px;
+  right: 0;
+}

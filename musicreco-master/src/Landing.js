@@ -5,7 +5,7 @@ import Foot from './foot';
 
 function Landing(){
     return(
-        <div className='App'>
+        <div class='landing'>
           <body>
             <div class="herohold">
               <Hero1/>
